@@ -3,7 +3,7 @@
 
 ![App Screenshot](https://github.com/Raafay009/PacketProbe/blob/main/PacketProbe.png)
 
-PacketProbe is an advanced network packet capturing tool designed for real-time monitoring and deep packet inspection. Built with Python and Scapy, this tool helps analyze network traffic, detect anomalies, and log sensitive information for cybersecurity professionals.
+PacketProbe is an advanced network packet capturing (Linux based) tool designed for real-time monitoring and deep packet inspection. Built with Python and Scapy, this tool helps analyze network traffic, detect anomalies, and log sensitive information for cybersecurity professionals.
 
 
 # Features
@@ -18,7 +18,13 @@ PacketProbe is an advanced network packet capturing tool designed for real-time 
 - Scapy
 - Colorama
 - Pyfiglet
-- Logging (Standard Library):
+- Logging (Standard Library)
+
+## Environment:
+- Linux
+- Unix
+- Virtual Machines and Containers (Docker etc)
+
 
 # Installation
 ## Prerequisites
