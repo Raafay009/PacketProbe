@@ -18,7 +18,7 @@ PacketProbe is an advanced network packet capturing tool designed for real-time 
 - Scapy
 - Colorama
 - Pyfiglet
-- Logging (Standard Library):
+- Logging (Standard Library)
 
 # Installation
 ## Prerequisites
