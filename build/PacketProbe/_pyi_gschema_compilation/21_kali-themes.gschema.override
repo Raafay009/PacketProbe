@@ -1,0 +1,116 @@
+[com.gexperts.Tilix.Profile]
+background-transparency-percent = 5
+palette = ['#1F2229', '#D41919', '#5EBDAB', '#FEA44C', '#367bf0', '#9755b3', '#49AEE6', '#E6E6E6', '#198388', '#EC0101', '#47D4B9', '#FF8A18', '#277FFF', '#962ac3', '#05A1F7', '#FFFFFF']
+
+[org.gnome.desktop.background]
+picture-options = 'zoom'
+picture-uri = 'file:///usr/share/desktop-base/kali-theme/wallpaper/gnome-background.xml'
+picture-uri-dark = 'file:///usr/share/desktop-base/kali-theme/wallpaper/gnome-background.xml'
+
+[org.gnome.desktop.interface]
+color-scheme = 'prefer-dark'
+gtk-theme = 'adw-gtk3-dark'
+icon-theme = 'Flat-Remix-Blue-Dark'
+monospace-font-name = 'Fira Code Medium 10'
+
+[org.gnome.desktop.screensaver]
+picture-options = 'zoom'
+picture-uri = 'file:///usr/share/desktop-base/kali-theme/lockscreen/gnome-background.xml'
+
+[org.gnome.desktop.wm.keybindings]
+show-desktop = ['<Primary><Super>d', '<Primary><Alt>d', '<Super>d']
+switch-applications = ['<Super>Tab']
+switch-applications-backward = ['<Shift><Super>Tab']
+switch-windows = ['<Alt>Tab']
+switch-windows-backward = ['<Shift><Alt>Tab']
+
+[org.gnome.desktop.wm.preferences]
+button-layout = 'appmenu:minimize,maximize,close'
+theme = 'adw-gtk3-dark'
+
+# Configuration for gnome's image-viewer
+[org.gnome.eog.ui]
+disable-close-confirmation = true
+sidebar = false
+
+[org.gnome.gedit.preferences.editor]
+background-pattern = 'grid'
+scheme = 'Kali-Dark'
+
+[org.gnome.TextEditor]
+show-grid = true
+style-scheme = 'Kali-Dark'
+
+[org.gnome.gnome-system-monitor]
+cpu-colors = [(0, '#fd3535'), (1, '#fd7d00'), (2, '#ffc730'), (3, '#0ca15e'), (4, '#14816c'), (5, '#4aaee6'), (6, '#367bf0'), (7, '#265ab1'), (8, '#153873'), (9, '#8c42ab'), (10, '#b8174c'), (11, '#d41919')]
+cpu-stacked-area-chart = true
+mem-color = '#B8174C'
+net-in-color = '#367BF0'
+net-out-color = '#D41919'
+swap-color = '#19a187'
+
+[org.gnome.shell]
+disable-extension-version-validation = true
+enabled-extensions = ['apps-menu@gnome-shell-extensions.gcampax.github.com','places-menu@gnome-shell-extensions.gcampax.github.com','dash-to-dock@micxgx.gmail.com','ProxySwitcher@flannaghan.com','ubuntu-appindicators@ubuntu.com','user-theme@gnome-shell-extensions.gcampax.github.com','ding@rastersoft.com','tiling-assistant@leleat-on-github']
+favorite-apps = ['org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'firefox-esr.desktop', 'kali-msfconsole.desktop', 'org.wireshark.Wireshark.desktop', 'kali-burpsuite.desktop', 'cherrytree.desktop']
+
+[org.gnome.shell.extensions.dash-to-dock]
+custom-theme-shrink=true
+show-trash = false
+running-indicator-style='DOTS'
+disable-overview-on-startup = true
+
+# Configure desktop icons in gnome-shell
+[org.gnome.shell.extensions.ding]
+icon-size = 'small'
+show-home = false
+show-trash = false
+show-volumes = false
+
+[org.gnome.shell.extensions.tiling-assistant]
+enable-tiling-popup = false
+
+[org.gnome.shell.extensions.user-theme]
+name = 'Kali-Dark'
+
+[org.gnome.Terminal.Legacy.Profile]
+background-transparency-percent = 5
+bold-is-bright = true
+palette = ['#1F2229', '#D41919', '#5EBDAB', '#FEA44C', '#367bf0', '#9755b3', '#49AEE6', '#E6E6E6', '#198388', '#EC0101', '#47D4B9', '#FF8A18', '#277FFF', '#962ac3', '#05A1F7', '#FFFFFF']
+scrollback-unlimited = true
+use-theme-colors = true
+use-transparent-background = true
+
+[org.gnome.Terminal.Legacy.Settings]
+confirm-close = false
+theme-variant = 'dark'
+
+[org.gtk.Settings.FileChooser]
+sort-directories-first = true
+
+[org.mate.terminal.profile]
+background-darkness = 0.95
+background-type = 'transparent'
+palette = '#1F1F22222929:#D4D419191919:#5E5EBDBDABAB:#FEFEA4A44C4C:#36367B7BF0F0:#97975555B3B3:#4948AEAEE6E6:#E6E6E6E6E6E6:#191983838888:#ECEC01010101:#4747D4D4B9B9:#FFFF8A8A1818:#27277F7FFFFF:#96962A2AC3C3:#0505A1A1F7F7:#FFFFFFFFFFFF'
+use-theme-colors = true
+
+[org.onboard]
+layout='Compact'
+theme='Droid'
+key-label-font='Cantarell'
+
+# Configuration for xfce's text-editor
+[org.xfce.mousepad.preferences.view]
+auto-indent = true
+color-scheme = 'Kali-Dark'
+highlight-current-line = true
+match-braces = true
+show-line-numbers = true
+word-wrap = true
+
+[org.xfce.mousepad.preferences.window]
+toolbar-visible = true
+client-side-decorations = false
+
+[org.xfce.mousepad.preferences.file]
+add-last-end-of-line = true

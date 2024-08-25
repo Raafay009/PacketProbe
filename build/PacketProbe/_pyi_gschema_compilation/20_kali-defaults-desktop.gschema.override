@@ -1,0 +1,18 @@
+# Enable fractional scaling for gnome-shell
+[org.gnome.mutter]
+experimental-features = ['scale-monitor-framebuffer']
+
+# Add a shortcut in MATE for Orca
+[org.mate.SettingsDaemon.plugins.media-keys]
+screenreader='<Alt><Mod4>s'
+
+# Disable some nm-applet notifications
+[org.gnome.nm-applet]
+disable-connected-notifications=true
+suppress-wireless-networks-available=true
+
+# Disable automatic updates in the background
+[org.gnome.software]
+download-updates=false
+download-updates-notify=false
+allow-updates=false
