@@ -1,0 +1,15 @@
+*.py linguist-language=Python
+
+
+*.html linguist-documentation=true
+*.css linguist-documentation=true
+*.js linguist-documentation=true
+*.md linguist-documentation=true
+*.pdf linguist-documentation=true
+*.tex linguist-documentation=true
+*.yml linguist-documentation=true
+*.json linguist-documentation=true
+*.xml linguist-documentation=true
+*.jpg linguist-documentation=true
+*.png linguist-documentation=true
+*.gif linguist-documentation=true
